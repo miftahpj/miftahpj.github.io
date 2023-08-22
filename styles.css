@@ -5,6 +5,11 @@ body {
     background-color: #f0f0f0;
 }
 
+.static-layout {
+  position: static;
+  background-color: #35495e;
+  width: 100%;
+}
 header {
     background-color: #35495e;
     color: #fff;
@@ -12,6 +17,11 @@ header {
     padding: 2rem 0;
 }
 
+.center-text {
+    text-align: center;
+    color: white
+}
+  
 header h1 span {
     color: #e67e22;
 }
@@ -39,7 +49,7 @@ section {
     padding: 2rem;
 }
 
-#pendidikan ul {
+#achievements ul {
     padding-left: 2rem;
 }
 
