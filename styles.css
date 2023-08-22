@@ -1,3 +1,7 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -9,6 +13,7 @@ body {
   position: static;
   background-color: #35495e;
   width: 100%;
+  border-radius: 44%;
 }
 header {
     background-color: #35495e;
@@ -58,4 +63,14 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1rem 0;
+}
+
+.profile img {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 15px;
+    top: 30px;
+    border-radius: 50%;
+    margin-bottom: 10px;
 }
